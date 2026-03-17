@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # Updated to include 'skills' in the path and added a relative path check
     script_dir = os.path.dirname(os.path.abspath(__file__))
     paths_to_check = [
-        os.path.join(script_dir, "..", file_name),
+        os.path.join(script_dir, "/../../../../", file_name),
         os.path.join("d:\\work\\code\\skills\\.agent\\skills\\extract-data\\", file_name)
     ]
     

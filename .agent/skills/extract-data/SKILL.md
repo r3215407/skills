@@ -10,4 +10,4 @@ allowed-tools: Bash,Write
 此技能旨在从文本中提取结构化数据，如JSON对象。
 
 ## 1. 提取数据 
-执行 python script/read_result.py
+执行 python3 script/read_result.py
